@@ -13,7 +13,7 @@ const RouterConfig = () => {
     return (
         <Routes>
             <Route strict path='/' element={<Home />}/>
-            <Route strict path='/category' element={<Category />} />
+            <Route path='/category' element={<Category />} />
             <Route path='/category/:type' element={<Product />} />
             <Route path='/category/:type/:id' element={<SingleProduct />} />
             <Route path='/cart' element={<Cart />} />
