@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   }));
 
 
-const Home = () => {
+const NotFound = () => {
     const classes = useStyles();
 
     return (
@@ -35,4 +35,4 @@ const Home = () => {
       );
 }
 
-export default Home;
+export default NotFound;

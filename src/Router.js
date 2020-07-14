@@ -12,7 +12,7 @@ import NotFound from './component/notFound'
 const RouterConfig = () => {
     return (
         <Routes>
-            <Route exact path='/' element={<Home />}/>
+            <Route strict path='/' element={<Home />}/>
             <Route path='/category' element={<Category />} />
             <Route path='/category/:type' element={<Product />} />
             <Route path='/category/:type/:id' element={<SingleProduct />} />
