@@ -35,7 +35,7 @@ const SingleProduct = () => {
     const prod = Shoes[type].items[id];
     console.log(prod.img)
 
-    let {cart, addCart} = useContext(CartContext)
+    let {addCart} = useContext(CartContext)
     
    function handleCart(e){
      e.preventDefault();
